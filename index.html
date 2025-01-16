@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona glowna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div1">
+        Moich 7 ulubionych piłkarzy w historii
+    </div>
+    <div class="div2">
+        <a href="messi.html">Lionel Messi</a>
+    </div>
+    <div class="div2">
+        <a href="iniesta.html">Andres Iniesta</a>
+    </div>
+    <div class="div2">
+        <a href="neymar.html">Neymar Jr</a>
+    </div>
+    <div class="div2">
+        <a href="pedri.html">Pedri</a>
+    </div>
+    <div class="div2">
+        <a href="pique.html">Pique</a>
+    </div>
+    <div class="div2">
+        <a href="kounde.html">Kounde</a>
+    </div>
+    <div class="div2">
+        <a href="busi.html">Busquets</a>
+    </div>
+    <div class="div5">
+        <a href="galeria.html">Więcej zdjęć!</a>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6b8BRSs64mczsUqFyrZ95d?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    <div class="div5">
+        <br><br><br><br><br><br>
+        <form>
+            <div class="pytanie">
+                <label for="favorite-player">Kto jest Twoim ulubionym zawodnikiem FC Barcelony?</label>
+                <input type="text" id="favorite-player" name="favorite-player" placeholder="Wpisz nazwisko">
+            </div>
+
+            <div class="pytanie">
+                <label for="match-attendance">Ile meczów Barcelony obejrzałeś na żywo?</label>
+                <input type="number" id="match-attendance" name="match-attendance" min="0" placeholder="Wpisz liczbę">
+            </div>
+
+            <div class="pytanie">
+                <label for="barcelona-era">Którą erę Barcelony lubisz najbardziej?</label>
+                <select id="barcelona-era" name="barcelona-era">
+                    <option value="guardiola">Era Guardioli</option>
+                    <option value="cruyff">Era Cruyffa</option>
+                    <option value="xavi">Era Enrique</option>
+                </select>
+            </div>
+
+
+            <div class="pytanie">
+                <label>Kto według Ciebie jest najlepszym trenerem Barcelony w historii?</label>
+                <input type="radio" id="guardiola" name="best-coach" value="Guardiola">
+                <label for="guardiola">Pep Guardiola</label>
+
+                <input type="radio" id="cruyff" name="best-coach" value="Cruyff">
+                <label for="cruyff">Johan Cruyff</label>
+
+                <input type="radio" id="xavi" name="best-coach" value="Xavi">
+                <label for="xavi">Luis Enrique</label>
+            </div>
+
+            <button type="submit" class="guzik">Wyślij</button>
+            <button type="reset" class="guzik">Reset</button>
+        </form>
+    </div>
+    <div class="footer">
+        Jakub Szeląg 2tb
+    </div>
+</body>
+</html>
