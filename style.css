@@ -229,3 +229,103 @@ li {
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
+
+/* Styl domyślny */
+
+.div1 {
+
+    width: 400px;
+
+    height: 200px;
+
+    background-color: #3498db;
+
+    margin: 20px auto;
+
+    text-align: center;
+
+    line-height: 200px;
+
+    color: white;
+
+    font-size: 24px;
+
+    transition: all 0.3s ease;
+
+}
+
+div {
+
+    border: 2px solid #ccc;
+
+    padding: 15px;
+
+    margin: 15px;
+
+    transition: all 0.3s ease;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .div1 {
+
+        width: 90%;
+
+        height: 150px;
+
+        background-color: #e67e22;
+
+        font-size: 18px;
+
+        color: black;
+
+    }
+
+    div {
+
+        background-color: #f1c40f;
+
+        border-color: #d35400;
+
+        margin: 10px;
+
+        padding: 10px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+
+    .div1 {
+
+        width: 80%;
+
+        height: 120px;
+
+        background-color: #e74c3c;
+
+        font-size: 14px;
+
+        transform: translateX(10%);
+
+    }
+
+    div {
+
+        padding: 5px;
+
+        margin: 5px;
+
+        background-color: #9b59b6;
+
+        border-color: #8e44ad;
+
+        border-radius: 10px;
+
+    }
+
+} 
